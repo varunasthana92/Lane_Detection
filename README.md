@@ -1,14 +1,15 @@
 # Lane Detection
 
-Project was part of the academic coursework at the Univeristy of Maryland-College Park. The prpose of the project is to detect the drive lane on the given data set (a video).
+Objective of the project is to detect the drive lane on the given data set (a video). Project was part of the academic coursework at the Univeristy of Maryland-College Park.
 
 ## Pipe Line
+<p align="left">
 1) Convert the scene into bird-eye view with a Homography.<br/>
 2) Trim the field of view according to camera position to get area of interest (i.e. road).<br/>
 <p align="center">
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/bird_view.jpg" >
 </p>
-3) Create a binary image from the trimmed image. White and yellow pixels are retianed (for white and yellow lanes).<br>
+3) Create a binary image from the trimmed image. White and yellow pixels are retianed (for white and yellow lanes).<br/>
 <p align="center">
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/Binary.jpg">
 </p>
@@ -23,6 +24,7 @@ Project was part of the academic coursework at the Univeristy of Maryland-Colleg
 6) With inverse homography, plot these detected points.<br/>
 <p align="center">
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/FinalImage.jpg">
+</p>
 </p>
 
 ### Dependencies
