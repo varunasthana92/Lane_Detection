@@ -16,7 +16,6 @@ python detect.py --saveImgs=1 --saveVideo=1
 ```
 
 ### Pipe Line
-<p align="left">
 1) Convert the scene into bird-eye view with a Homography.<br/>
 2) Trim the field of view according to camera position to get area of interest (i.e. road).<br/>
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/bird_view.jpg" >
@@ -28,10 +27,7 @@ python detect.py --saveImgs=1 --saveVideo=1
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/findStart.jpg">
 
 5) Divide the height of the binary image into defined number of boxes. Detetct x-mean of white pixels in each successive box to track the lane. Once all center points of left and right lanes are detected, fit a line from these pixel points to get the missing points between lane patches (for continuous lane detection).<br/>
-<p align="center">
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/lanes.jpg">
 
 6) With inverse homography, plot these detected points.<br/>
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/FinalImage.jpg">
-
-</p>
