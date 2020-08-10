@@ -167,9 +167,7 @@ def main(Args):
 			cv2.imwrite("pics/findStart.jpg",_)
 		# cv2.imshow("Lane", getLaneStart(img_, 600, img.copy()))
 		maskedImage, leftLane_, rightLane_ = rect(img, 16, leftStart, rightStart, img_)
-		
 		if saveImg:
-			cv2.imwrite("pics/boxes.jpg", maskedImage)
 			cv2.imwrite("pics/lanes.jpg",maskedImage)
 		#############################################################
 		# Following line overlays transparent rectangle over the image
