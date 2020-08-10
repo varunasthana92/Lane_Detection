@@ -6,13 +6,13 @@ Project was part of the academic coursework at the Univeristy of Maryland-Colleg
 1) Convert the scene into bird-eye view with a Homography.<br/>
 2) Trim the field of view according to camera position to get area of interest (i.e. road).<br/>
 <p align="center">
-<img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/bird_view.jpg" width="200" height="300">
+<img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/bird_view.jpg" >
 </p>
 3) Create a binary image from the trimmed image. White and yellow pixels are retianed (for white and yellow lanes).<br>
 <p align="center">
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/Binary.jpg" width="200" height="300">
 </p>
-4) With histogram along the width of the image, detect the left and right lane pooints. Left lane point will be in left half width and right lane points will be in right half widht, assuming camera center to be at the mid of the image.<br/>
+4) With histogram along the width of the image, detect the left and right lane start points. Left lane point will be in left half width and right lane point will be in the right half widht (assuming camera center to be at the mid of the image) beginning from the bottom of the image.<br/>
 <p align="center">
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/findStart.jpg" width="200" height="300">
 </p>
