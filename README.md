@@ -10,7 +10,7 @@ Objective of the project is to detect the drive lane on the given data set (a vi
 
 ### How to Run
 Use the below command to run the lane-detector on the provided input video.<br/>
---saveImg : Set 1 to save pipeline processing images. Default 0<br/>
+--saveImgs : Set 1 to save pipeline processing images. Default 0<br/>
 --saveVideo : Set 1 to save final output as a video. Default 0
 ```
 python detect.py --saveImgs=1 --saveVideo=1
