@@ -157,7 +157,7 @@ def main(Args):
 		img1 = undistort(img1, K, D)
 		img = warpImage(img1, H[0])
 		if saveImg:
-			cv2.imwrite("pics/Unwarped.jpg",img)
+			cv2.imwrite("pics/bird_view.jpg",img)
 		img_ = binary(img)
 		if saveImg:
 			cv2.imwrite("pics/Binary.jpg",img_)
