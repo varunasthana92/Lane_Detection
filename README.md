@@ -1,6 +1,6 @@
 # Lane Detection
 
-Objective of the project is to detect the drive lane on the given data set (a video). Project was part of the academic coursework at the Univeristy of Maryland-College Park.
+Objective of the project is to detect the drive lane on the given data set (a video). Project was part of the academic coursework ENPM673-Perception for Autonomous Robots at the Univeristy of Maryland-College Park.
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/FinalImage.jpg">
 
 ### Dependencies
@@ -10,13 +10,13 @@ Objective of the project is to detect the drive lane on the given data set (a vi
 
 ### How to Run
 Use the below command to run the lane-detector on the provided input video.<br/>
---saveImgs : Set 1 to save pipeline processing images. Default 0<br/>
---saveVideo : Set 1 to save final output as a video. Default 0
+__--saveImgs__ : Set 1 to save pipeline processing images. Default 0<br/>
+__--saveVideo__ : Set 1 to save final output as a video. Default 0
 ```
 python detect.py --saveImgs=1 --saveVideo=1
 ```
 
-### Pipe Line
+### Pipeline
 1) Convert the scene into bird-eye view with a Homography.<br/>
 2) Trim the field of view according to camera position to get area of interest (i.e. road).<br/>
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/bird_view.jpg" >
