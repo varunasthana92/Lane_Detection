@@ -6,9 +6,9 @@ Objective of the project is to detect the drive lane on the given data set (a vi
 </p>
 
 ### Dependencies
-- opencv
-- numpy
-- matplotlib
+- opencv 3.3.1
+- numpy 1.16.6
+- matplotlib 2.2.5
 
 ### How to Run
 Use the below command to run the lane-detector on the provided input video.<br/>
