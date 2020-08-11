@@ -34,3 +34,7 @@ python detect.py --saveImgs=1 --saveVideo=1
 
 6) With inverse homography, plot these detected points.<br/>
 <img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/FinalImage.jpg">
+
+### Contact information
+Name: Varun Asthana  
+Email id: varunasthana92@gmail.com
