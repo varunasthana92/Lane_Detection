@@ -1,7 +1,7 @@
 # Lane Detection
 
 Objective of the project is to detect the drive lane on the given data set (a video). Project was part of the academic coursework ENPM673-Perception for Autonomous Robots at the Univeristy of Maryland-College Park.
-<img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/FinalImage.jpg">
+<img src="https://github.com/varunasthana92/Lane_Detection/blob/master/pics/final.gif">
 
 ### Dependencies
 - opencv
